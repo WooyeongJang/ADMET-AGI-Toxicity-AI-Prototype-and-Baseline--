@@ -1,5 +1,6 @@
 # ChemCoT.py
 import asyncio
+import json
 import datasets
 from utils import run_concurrent_worker, save_jsonl, compute_em_score, summarize_scores
 import openai
@@ -46,4 +47,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
